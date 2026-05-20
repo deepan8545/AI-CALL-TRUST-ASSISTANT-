@@ -1,0 +1,28 @@
+transcript_id,transcript,category,is_scam,risk_score
+1,This is your bank's fraud department. We detected unauthorized transactions on your account. Please verify your account number and PIN to secure your account immediately.,bank_impersonation,1,0.795
+2,"Hello, this is the security team at your bank. Your debit card has been compromised. We need your card number and CVV to issue a replacement.",bank_impersonation,1,0.888
+3,Urgent notice from your bank. Your account will be frozen unless you confirm your identity. Please provide your social security number now.,bank_impersonation,1,0.968
+4,This is the IRS. You owe back taxes and a warrant has been issued for your arrest. Pay immediately using gift cards to avoid prosecution.,government_impersonation,1,0.971
+5,This is Social Security Administration. Your social security number has been suspended due to suspicious activity. Press 1 to speak with an officer.,government_impersonation,1,0.885
+6,This is the Department of Treasury. You have an outstanding tax liability. Failure to pay today will result in legal action.,government_impersonation,1,0.955
+7,"You've won a prize! To claim your reward, purchase gift cards worth $500 and read the numbers to our verification department.",gift_card_scam,1,0.759
+8,"This is customer support. To process your refund, we need you to purchase Google Play gift cards and share the codes.",gift_card_scam,1,0.901
+9,Your computer has been infected with a virus. We are Microsoft certified technicians. Give us remote access to fix the problem immediately.,tech_support_scam,1,0.913
+10,We detected malware on your device. Please download our remote access tool so we can remove the threat before your data is stolen.,tech_support_scam,1,0.975
+11,Your package could not be delivered due to an incorrect address. Click the link to update your address and pay a small redelivery fee.,package_delivery_scam,1,0.767
+12,UPS notice: your package is being held. Provide your credit card for the customs fee to release it.,package_delivery_scam,1,0.786
+13,Your account will be permanently closed in 24 hours unless you verify your identity now. Press 1 to connect to our verification team.,account_closure_threat,1,0.901
+14,Final notice: your account has been flagged for closure. Provide your login credentials immediately to prevent permanent deletion.,account_closure_threat,1,0.847
+15,"You have an outstanding medical bill of $2,340. Provide your insurance information now or we will send this to collections today.",healthcare_billing_scam,1,0.77
+16,This is the hospital billing department. Your insurance claim was denied. We need your policy number and social security to resubmit.,healthcare_billing_scam,1,0.86
+17,We detected suspicious login activity on your account. Please provide your current password so we can secure your account.,credential_theft,1,0.824
+18,Your email has been compromised. Send us your password and we will reset your security settings immediately.,credential_theft,1,0.895
+19,Exclusive opportunity: invest $1000 today and earn guaranteed returns of 500% within 30 days. Wire transfer only. Limited spots available.,investment_scam,1,0.936
+20,"Congratulations, you've been selected for a private investment program. Send your bank details to get started with zero risk.",investment_scam,1,0.848
+21,Your car warranty is about to expire. Press 1 now to renew at a special discounted rate before it's too late.,insurance_scam,1,0.892
+22,This is your insurance provider. Your policy has been cancelled due to non-payment. Provide your credit card to reinstate immediately.,insurance_scam,1,0.975
+23,"Hi, this is Dr. Smith's office calling to confirm your appointment tomorrow at 2pm. Please call us back to confirm.",safe,0,0.017
+24,This is CVS Pharmacy. Your prescription is ready for pickup at the store on Main Street.,safe,0,0.061
+25,"Hello, this is United Airlines. Your flight UA 452 has been rescheduled to 3:15pm. No action needed.",safe,0,0.059
+26,This is your dentist office reminding you of your cleaning appointment next Tuesday.,safe,0,0.077
+27,"Hi, this is the school office. Just confirming that your child was picked up at 3pm today.",safe,0,0.076
